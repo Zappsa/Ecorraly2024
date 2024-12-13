@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Ecorraly 2024</title>
+    <link rel="stylesheet" href="new2.css" />
+    <script>
+        // Cambia la página visible de la galería
+        function cargarPagina(pagina) {
+            const paginas = document.querySelectorAll('.gallery-table');
+            paginas.forEach(p => p.style.display = 'none'); // Ocultar todas las tablas
+            document.getElementById(pagina).style.display = 'table'; // Mostrar la tabla seleccionada
+        }
+    </script>
+</head>
+<body onload="cargarPagina('pagina1')">
+    <div id="wrap">
+        <header id="header">
+            <h1>Ecorraly 2024</h1>
+            <p>Galería</p>
+
+<button onclick="location.href='index.html'" style="padding: 10px 20px; font-size: 16px; 
+cursor: pointer; background-color: #80bc00; color: #fff; border: 2px solid white; border-radius: 5px;">
+    🏠 </button>
+
+   
+</button>
+
+        </header>
+
+        <main id="content">
+            <section id="galeria">
+                <h2>Galería de Fotos</h2>
+                
+                <!-- Botones de Navegación -->
+                <div class="gallery-menu">
+                    <button onclick="cargarPagina('pagina1')"> 1</button>
+                    <button onclick="cargarPagina('pagina2')"> 2</button>
+                    <button onclick="cargarPagina('pagina3')"> 3</button>
+                     <button onclick="cargarPagina('pagina4')">4</button>
+                    <button onclick="cargarPagina('pagina5')">5</button>
+                   
+                    </div>
+
+                <!-- Tablas de la galería -->
+                <<!-- Tablas de la galería -->
+<table id="pagina1" class="gallery-table">
+    <tr>
+        <td><img src="img/img1.jpg" alt="Foto 1" title="Foto 1"></td>
+        <td><img src="img/img2.jpg" alt="Foto 2" title="Foto 2"></td>
+        <td><img src="img/img3.jpg" alt="Foto 3" title="Foto 3"></td>
+    </tr>
+    <tr>
+        <td><img src="img/img4.jpg" alt="Foto 4" title="Foto 4"></td>
+        <td><img src="img/img5.jpg" alt="Foto 5" title="Foto 5"></td>
+        <td><img src="img/img6.jpg" alt="Foto 6" title="Foto 6"></td>
+    </tr>
+</table>
+
+<table id="pagina2" class="gallery-table">
+    <tr>
+        <td><img src="img/img7.jpg" alt="Foto 7" title="Foto 7"></td>
+        <td><img src="img/img8.jpg" alt="Foto 8" title="Foto 8"></td>
+        <td><img src="img/img9.jpg" alt="Foto 9" title="Foto 9"></td>
+    </tr>
+    <tr>
+        <td><img src="img/img10.jpg" alt="Foto 10" title="Foto 10"></td>
+        <td><img src="img/img11.jpg" alt="Foto 11" title="Foto 11"></td>
+        <td><img src="img/img12.jpg" alt="Foto 12" title="Foto 12"></td>
+    </tr>
+</table>
+
+<table id="pagina3" class="gallery-table">
+    <tr>
+        <td><img src="img/img13.jpg" alt="Foto 13" title="Foto 13"></td>
+        <td><img src="img/img14.jpg" alt="Foto 14" title="Foto 14"></td>
+        <td><img src="img/img15.jpg" alt="Foto 15" title="Foto 15"></td>
+    </tr>
+    <tr>
+        <td><img src="img/img16.jpg" alt="Foto 16" title="Foto 16"></td>
+        <td><img src="img/img17.jpg" alt="Foto 17" title="Foto 17"></td>
+        <td><img src="img/img18.jpg" alt="Foto 18" title="Foto 18"></td>
+    </tr>
+</table>
+
+<table id="pagina4" class="gallery-table">
+    <tr>
+        <td><img src="img/img19.jpg" alt="Foto 19" title="Foto 19"></td>
+        <td><img src="img/img20.jpg" alt="Foto 20" title="Foto 20"></td>
+        <td><img src="img/img21.jpg" alt="Foto 21" title="Foto 21"></td>
+    </tr>
+    <tr>
+        <td><img src="img/img22.jpg" alt="Foto 22" title="Foto 22"></td>
+        <td><img src="img/img23.jpg" alt="Foto 23" title="Foto 23"></td>
+        <td><img src="img/img24.jpg" alt="Foto 24" title="Foto 24"></td>
+    </tr>
+</table>
+
+<table id="pagina5" class="gallery-table">
+    <tr>
+        <td><img src="img/img25.jpg" alt="Foto 25" title="Foto 25"></td>
+        <td><img src="img/img26.jpg" alt="Foto 26" title="Foto 26"></td>
+        <td><img src="img/img27.jpg" alt="Foto 27" title="Foto 27"></td>
+    </tr>
+    <tr>
+        <td><img src="img/img28.jpg" alt="Foto 28" title="Foto 28"></td>
+        <td><img src="img/img29.jpg" alt="Foto 29" title="Foto 29"></td>
+        <td><img src="img/img30.jpg" alt="Foto 30" title="Foto 30"></td>
+    </tr>
+</table>
+
+<table id="pagina6" class="gallery-table">
+    <tr>
+        <td><img src="img/img31.jpg" alt="Foto 31" title="Foto 31"></td>
+        <td><img src="img/img32.jpg" alt="Foto 32" title="Foto 32"></td>
+        <td><img src="img/img33.jpg" alt="Foto 33" title="Foto 33"></td>
+    </tr>
+    <tr>
+        <td><img src="img/img34.jpg" alt="Foto 34" title="Foto 34"></td>
+        <td><img src="img/img35.jpg" alt="Foto 35" title="Foto 35"></td>
+        <td><img src="img/img36.jpg" alt="Foto 36" title="Foto 36"></td>
+    </tr>
+</table>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <p>Ecorraly 2024| Instituto Tecnologico de Tijuana</p>
+        </footer>
+    </div>
+</body>
+</html>
